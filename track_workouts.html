@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Workouts - Gym Workout Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-xl">Gym Workout Planner</h1>
+        <nav class="mt-2">
+            <a href="index.html" class="mr-4 hover:underline">Home</a>
+            <a href="create_profile.html" class="mr-4 hover:underline">Create Profile</a>
+            <a href="suggest_workout_plan.html" class="mr-4 hover:underline">Suggest Workout Plan</a>
+            <a href="set_reminders.html" class="mr-4 hover:underline">Set Reminders</a>
+            <a href="dashboard.html" class="hover:underline">Dashboard</a>
+        </nav>
+    </header>
+    <main class="p-4">
+        <h2 class="text-2xl mb-4">Track Your Workouts</h2>
+        <form>
+            <label for="exercise" class="block mb-2">Exercise:</label>
+            <input type="text" id="exercise" class="border p-2 mb-4 w-full" placeholder="e.g., Bench Press">
+            <label for="sets" class="block mb-2">Sets:</label>
+            <input type="number" id="sets" class="border p-2 mb-4 w-full" placeholder="e.g., 3">
+            <label for="reps" class="block mb-2">Repetitions:</label>
+            <input type="number" id="reps" class="border p-2 mb-4 w-full" placeholder="e.g., 10">
+            <label for="weight" class="block mb-2">Weight:</label>
+            <input type="text" id="weight" class="border p-2 mb-4 w-full" placeholder="e.g., 75 lbs">
+            <button type="submit" class="bg-blue-600 text-white p-2">Log Workout</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Reminders - Gym Workout Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-xl">Gym Workout Planner</h1>
+        <nav class="mt-2">
+            <a href="index.html" class="mr-4 hover:underline">Home</a>
+            <a href="create_profile.html" class="mr-4 hover:underline">Create Profile</a>
+            <a href="suggest_workout_plan.html" class="mr-4 hover:underline">Suggest Workout Plan</a>
+            <a href="track_workouts.html" class="mr-4 hover:underline">Track Workouts</a>
+            <a href="dashboard.html" class="hover:underline">Dashboard</a>
+        </nav>
+    </header>
+    <main class="p-4">
+        <h2 class="text-2xl mb-4">Set Workout Reminders</h2>
+        <form>
+            <label for="reminder" class="block mb-2">Reminder Message:</label>
+            <input type="text" id="reminder" class="border p-2 mb-4 w-full" placeholder="e.g., Time for your workout!">
+            <label for="time" class="block mb-2">Reminder Time:</label>
+            <input type="time" id="time" class="border p-2 mb-4 w-full">
+            <button type="submit" class="bg-blue-600 text-white p-2">Set Reminder</button>
+        </form>
+    </main>
+</body>
+</html>
